@@ -11,6 +11,7 @@
     <h1 style='margin-bottom: 30px';>Torneo Scacchi - Dashboard</h1>
     <a href="insertPlayerIndex.php"><button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 20px;">Inserimento Giocatore</button></a>
     <a href="partite.php"><button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 20px; margin-left: 10px;">Visualizza Tabellone Partite</button></a>
+    <a href="cancellaDatiGirone.php"><button type="button" class="btn btn-primary btn-sm" style="background-color: red; margin-bottom: 20px; margin-left: 10px;">Pulisci Tabellone</button></a>
 
     <?php
         require_once("connection.php");
